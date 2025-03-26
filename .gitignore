@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node
 
@@ -152,3 +151,44 @@ dist
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node
+
+# Production build files
+/dist
+/build
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+
+# Temporary files
+.tmp
+.temp
+
+# Cache
+.stylelintcache
+
+# Lock files - you might want to keep one of these based on your package manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
