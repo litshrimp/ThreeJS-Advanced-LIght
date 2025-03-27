@@ -5,14 +5,10 @@
 ## 项目特点
 
 - 基于Three.js的高质量烘焙渲染
-- 动态光照系统，支持实时调整光照颜色和强度
-- 自定义着色器实现光照混合效果
+- Glsl 混合模式实现高级光照，支持实时调整光照颜色和强度
 - 交互式GUI控制面板
 - 支持不同版本Three.js的兼容性处理
 
-## 在线演示
-
-[查看在线演示](https://litshrimp.github.io/ThreeJS-Advanced-LIght/)（即将上线）
 
 ## 项目结构
 
@@ -78,7 +74,3 @@ npm run build
 ## 常见问题
 
 如果遇到问题，请参考 [TROUBLESHOOTING.md](TROUBLESHOOTING.md) 获取解决方案。
-
-## 许可证
-
-[MIT](LICENSE)
